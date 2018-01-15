@@ -59,14 +59,14 @@ function setup() {
    push();
    rotate(minuteAngle);
    strokeWeight(8);  
-   stroke(51);
+   stroke(0);
    line(0, 0, width/4, 0);
    pop();
      
    push();
    rotate(hourAngle);
    strokeWeight(8);
-   stroke(51);
+   stroke(0);
    line(0, 0, width/5.5, 0);
    pop();
   
@@ -77,7 +77,7 @@ function setup() {
 
      
  //5 min marks 
-    stroke(51);{   
+    stroke(0);{   
     arc(0, 0, 530, 530, 29, 31, CHORD);
     arc(0, 0, 530, 530, 59, 61, CHORD);
    // arc(0, 0, 550, 550, 88, 92, CHORD);
@@ -111,7 +111,7 @@ function setup() {
    textSize(18);
    textFont('Helvetica');
    fill(255); 
-   stroke(51);
+   noStroke();
    text(hr +' ' + ':'+' ' + mn +' ' + ':'+' ' + sc, -45, 350);
      
      
