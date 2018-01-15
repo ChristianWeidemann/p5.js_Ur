@@ -102,9 +102,9 @@ function setup() {
    textSize(40);  
    textFont('Georgia');
    fill(0);
-   text('3', 250, 15);
+   text('3', 250, 20);
    text('6', -10, 270);
-   text('9', -265, 15);
+   text('9', -265, 20);
    text('12', -20, -245);
    //CHRISTIANS UR
    textSize(20); 
@@ -115,6 +115,7 @@ function setup() {
     
 //digital clock
    textSize(18);
+   textStyle(BOLD);
    textFont('Helvetica');
    fill(0); 
    noStroke();
