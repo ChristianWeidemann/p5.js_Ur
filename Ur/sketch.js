@@ -106,10 +106,11 @@ function setup() {
    text('6', -10, 270);
    text('9', -265, 15);
    text('12', -20, -245);
+    
    //CHRISTIANS UR
    textSize(20); 
-   text('CHRISTIANS', -200, 15);
-   text('UR', 100, 15);
+   text('CHRISTIANS', -200, 30);
+   text('UR', 100, 30);
     
     
     
