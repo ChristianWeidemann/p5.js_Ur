@@ -102,14 +102,14 @@ function setup() {
    textSize(40);  
    textFont('Georgia');
    fill(0);
-   text('3', 250, 20);
+   text('3', 250, 15);
    text('6', -10, 270);
-   text('9', -265, 20);
+   text('9', -265, 15);
    text('12', -20, -245);
    //CHRISTIANS UR
    textSize(20); 
-   text('CHRISTIANS', -200, 0);
-   text('UR', 200, 0);
+   text('CHRISTIANS', -200, 15);
+   text('UR', 100, 15);
     
     
     
