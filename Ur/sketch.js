@@ -106,7 +106,12 @@ function setup() {
    text('6', -10, 270);
    text('9', -265, 15);
    text('12', -20, -245);
-
+   textSize(20); 
+   text('CHRISTIANS', -200, 0);
+   text('UR', 200, 0);
+    
+    
+    
 //digital clock
    textSize(18);
    textFont('Helvetica');
