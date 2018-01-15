@@ -101,7 +101,7 @@ function setup() {
    textStyle(BOLD);
    textSize(40);  
    textFont('Georgia');
-   fill(51);
+   fill(0);
    text('3', 250, 15);
    text('6', -10, 270);
    text('9', -265, 15);
@@ -110,7 +110,7 @@ function setup() {
 //digital clock
    textSize(18);
    textFont('Helvetica');
-   fill(255); 
+   fill(0); 
    noStroke();
    text(hr +' ' + ':'+' ' + mn +' ' + ':'+' ' + sc, -45, 350);
      
