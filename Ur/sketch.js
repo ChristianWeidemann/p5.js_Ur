@@ -173,10 +173,10 @@ function changeSecColor(){
    text('12', 0, -(windowWidth+windowHeight)/7.5, 0);
 
 //digital clock
-  // textSize((windowWidth+windowHeight)/80);
-  // textFont('Helvetica');
-  // fill(IndC); 
-  // text(hr +' ' + ':'+' ' + mn +' ' + ':'+' ' + sc, 0, (windowWidth+windowHeight)/5);
+   textSize((windowWidth+windowHeight)/80);
+   textFont('Helvetica');
+   fill(IndC); 
+   text(hr +' ' + ':'+' ' + mn +' ' + ':'+' ' + sc, 0, (windowWidth+windowHeight)/5);
      
 
  }
